@@ -201,7 +201,9 @@ public class adminHome extends javax.swing.JFrame {
         });
         getContentPane().add(jComboBox4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 370, -1, -1));
 
+        save.setBackground(new java.awt.Color(255, 117, 89));
         save.setText("Save");
+        save.setOpaque(true);
         save.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveActionPerformed(evt);
@@ -209,7 +211,9 @@ public class adminHome extends javax.swing.JFrame {
         });
         getContentPane().add(save, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 440, -1, -1));
 
+        reset.setBackground(new java.awt.Color(153, 51, 255));
         reset.setText("Reset");
+        reset.setOpaque(true);
         reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 resetActionPerformed(evt);
