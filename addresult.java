@@ -30,6 +30,7 @@ public class addresult extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">                          
     private void initComponents() {
 
+        jTextField7 = new javax.swing.JTextField();
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
@@ -50,6 +51,8 @@ public class addresult extends javax.swing.JFrame {
         jTextField4 = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
         jTextField6 = new javax.swing.JTextField();
+
+        jTextField7.setText("jTextField7");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(700, 500));
@@ -137,42 +140,42 @@ public class addresult extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel1.setText("EM");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 230, 60, 20));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 230, 60, 20));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel2.setText("Physics");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 280, 80, 20));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 280, 80, 20));
 
         jLabel3.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel3.setText("Roll no.");
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 90, 60, 20));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 90, 60, 20));
 
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 80, 200, 30));
+        getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 80, 100, 30));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel4.setText("OS");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 330, 50, 20));
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 330, 50, 20));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel6.setText("DBMS");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, -1, -1));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 13)); // NOI18N
         jLabel5.setText("Maths");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 140, -1, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 140, -1, -1));
 
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
             }
         });
-        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 130, 200, 30));
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 180, 200, 30));
+        getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 100, 30));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 180, 100, 30));
 
         save.setBackground(new java.awt.Color(255, 102, 102));
         save.setText("Save");
@@ -181,7 +184,7 @@ public class addresult extends javax.swing.JFrame {
                 saveActionPerformed(evt);
             }
         });
-        getContentPane().add(save, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 400, -1, -1));
+        getContentPane().add(save, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 400, 60, 30));
 
         reset.setBackground(new java.awt.Color(51, 255, 51));
         reset.setText("Reset");
@@ -190,10 +193,10 @@ public class addresult extends javax.swing.JFrame {
                 resetActionPerformed(evt);
             }
         });
-        getContentPane().add(reset, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 400, -1, -1));
-        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, 200, 30));
-        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 280, 200, 30));
-        getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 330, 200, 30));
+        getContentPane().add(reset, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 400, 60, 30));
+        getContentPane().add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 230, 100, 30));
+        getContentPane().add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 280, 100, 30));
+        getContentPane().add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 330, 100, 30));
 
         pack();
     }// </editor-fold>                        
@@ -210,7 +213,7 @@ public class addresult extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {                                         
         setVisible(false);
-        new result().setVisible(true);
+        new registeredstudents().setVisible(true);
         // TODO add your handling code here:
     }                                        
 
@@ -225,6 +228,7 @@ public class addresult extends javax.swing.JFrame {
 
     private void saveActionPerformed(java.awt.event.ActionEvent evt) {                                     
         
+        
         String roll = jTextField1.getText();
         String phy = jTextField2.getText();
         String math = jTextField3.getText();
@@ -236,8 +240,12 @@ public class addresult extends javax.swing.JFrame {
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/srms","root","$ShuklaDurgesh");
             Statement st=con.createStatement();
             ResultSet rs = st.executeQuery("select * from student where rollno = '"+roll+"'");
+          
+            
+            
             if(rs.next()){
-                st.executeUpdate("insert into result(rollno,physics,maths,em,dbms,os) values ('"+roll+"','"+phy+"','"+math+"','"+em+"','"+dbms+"','"+os+"')");
+                String name =rs.getString(4);
+                st.executeUpdate("insert into result(rollno,name,physics,maths,em,dbms,os) values ('"+roll+"','"+name+"','"+phy+"','"+math+"','"+em+"','"+dbms+"','"+os+"')");
                 JOptionPane.showMessageDialog(null,"data recorded successfully");
                 this.setVisible(false);
                 new addresult().setVisible(true);
@@ -319,6 +327,7 @@ public class addresult extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
     private javax.swing.JButton reset;
     private javax.swing.JButton save;
     // End of variables declaration                   

@@ -31,6 +31,7 @@ public class Index extends javax.swing.JFrame {
         admin = new javax.swing.JButton();
         student = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -72,6 +73,15 @@ public class Index extends javax.swing.JFrame {
         jLabel2.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jLabel2.setOpaque(true);
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 180, 220, 40));
+
+        jLabel4.setBackground(new java.awt.Color(196, 255, 146));
+        jLabel4.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(0, 0, 255));
+        jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel4.setText("Student Result Management System");
+        jLabel4.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jLabel4.setOpaque(true);
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 700, 90));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/studentmanagementsystem/GARFF1.jpg"))); // NOI18N
         jLabel3.setText("jLabel3");
@@ -131,6 +141,7 @@ public class Index extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JButton student;
     // End of variables declaration//GEN-END:variables
 }

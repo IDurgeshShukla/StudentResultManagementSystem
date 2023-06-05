@@ -141,6 +141,7 @@ public class registeredstudents extends javax.swing.JFrame {
             }
         });
 
+        jTable1.setBackground(new java.awt.Color(255, 232, 168));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -159,7 +160,7 @@ public class registeredstudents extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 480, 490));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 480, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -198,7 +199,8 @@ public class registeredstudents extends javax.swing.JFrame {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/srms","root","$ShuklaDurgesh");
             Statement st=con.createStatement();
-            ResultSet rs = st.executeQuery("select * from student");
+            ResultSet rs = st.executeQuery("select rollno,name from student");
+           
            jTable1.setModel(DbUtils.resultSetToTableModel(rs));
 
         }

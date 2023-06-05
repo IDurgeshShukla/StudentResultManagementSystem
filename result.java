@@ -124,6 +124,7 @@ public class result extends javax.swing.JFrame {
             }
         });
 
+        jTable1.setBackground(new java.awt.Color(255, 232, 168));
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null},
@@ -142,7 +143,7 @@ public class result extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(jTable1);
 
-        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 480, 490));
+        getContentPane().add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 0, 480, 500));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -159,7 +160,7 @@ public class result extends javax.swing.JFrame {
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         setVisible(false);
-        new result().setVisible(true);
+        new registeredstudents().setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
 

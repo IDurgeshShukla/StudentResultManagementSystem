@@ -449,13 +449,13 @@ public class StudentIndex extends javax.swing.JFrame {
             Statement st2 = con.createStatement();
             ResultSet rs2 = st2.executeQuery("select * from result where result.rollno = '"+roll+"'");
             if(rs2.next()){
-                jTextField7.setText(rs2.getString(2));
-                jTextField8.setText(rs2.getString(3));
-                jTextField9.setText(rs2.getString(4));
-                jTextField10.setText(rs2.getString(5));
-                jTextField11.setText(rs2.getString(6));
+                jTextField7.setText(rs2.getString(3));
+                jTextField8.setText(rs2.getString(4));
+                jTextField9.setText(rs2.getString(5));
+                jTextField10.setText(rs2.getString(6));
+                jTextField11.setText(rs2.getString(7));
                 
-                int total = Integer.parseInt(rs2.getString(2))+Integer.parseInt(rs2.getString(3))+Integer.parseInt(rs2.getString(4))+Integer.parseInt(rs2.getString(5))+Integer.parseInt(rs2.getString(6)) ;
+                int total = Integer.parseInt(rs2.getString(7))+Integer.parseInt(rs2.getString(3))+Integer.parseInt(rs2.getString(4))+Integer.parseInt(rs2.getString(5))+Integer.parseInt(rs2.getString(6)) ;
                 jTextField12.setText(total+"");
             }
         }
