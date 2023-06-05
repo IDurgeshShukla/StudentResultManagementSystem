@@ -74,8 +74,8 @@ public class Index extends javax.swing.JFrame {
         jLabel2.setOpaque(true);
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 180, 220, 40));
 
-        jLabel4.setBackground(new java.awt.Color(196, 255, 146));
-        jLabel4.setFont(new java.awt.Font("Serif", 1, 24)); // NOI18N
+        jLabel4.setBackground(new java.awt.Color(196, 250, 83));
+        jLabel4.setFont(new java.awt.Font("Serif", 1, 36)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(0, 0, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Student Result Management System");
